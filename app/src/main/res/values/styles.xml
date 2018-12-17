@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback" />
+
+    <style name="ExampleGuidedStep" parent="Theme.Leanback.GuidedStep">
+        <item name="guidanceTitleStyle">@style/ExampleGuidedTitleStyle</item>
+        <item name="guidanceBreadcrumbStyle">@style/ExampleGuidedBreadcrumbStyle</item>
+        <item name="guidanceDescriptionStyle">@style/ExampleGuidedDescriptionStyle</item>
+        <item name="guidedStepBackground">#960018</item>
+        <item name="guidedActionsElevation">16dp</item>
+        <item name="android:alpha">0.98</item>
+        <item name="guidedActionsBackground">@color/colorActionsBackground</item>
+    </style>
+
+    <!-- Guided action title style -->
+    <style name="ExampleGuidedTitleStyle" parent="Widget.Leanback.GuidanceTitleStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#FAFAFA</item>
+    </style>
+
+    <!-- Guided action breadcrumb title style -->
+    <style name="ExampleGuidedBreadcrumbStyle" parent="Widget.Leanback.GuidanceBreadcrumbStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#DEDEDE</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!--Guided action description style -->
+    <style name="ExampleGuidedDescriptionStyle" parent="Widget.Leanback.GuidanceDescriptionStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#DEDEDE</item>
+    </style>
+</resources>
